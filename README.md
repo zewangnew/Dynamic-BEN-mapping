@@ -1,4 +1,4 @@
 # Dynamic-BEN-mapping
 This repository contains code for the paper under minor revision by Neuroimage. The code is customized for the fully processed HCP resting state fMRI data. As the dynamic entropy mapping is highly time consuming, the current version only runs in a linux workstation with GPU cards. The compatible version is Ubuntu 16.04 though 18.06 has been tested too. For static entropy mapping using Windows, Linux, MacOS, you can still use the code downloadable in https://cfn.upenn.edu/zewang/BENtbx.php. I plan to release a new version which can directly process nifti format data and the gzip data. This new release will be through Github.com.
 
-In addition to the python and compiled code, I also included some Matlab code used for the statistic analyses included in the paper. 
+In addition to the python and compiled code, I also included some Matlab code used for the statistic analyses included in the paper. Matlab code depends on SPM12. The input and output folder needs to be changed to reflect the real locations.
